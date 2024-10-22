@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: rgba(128, 128, 128, 0.486);
+  background-color: #8625169e;
   padding: 1rem;
 
   /* position */
@@ -57,6 +57,7 @@ main {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  background-color: #FCD8AC;
 }
 
 .hero {
@@ -102,6 +103,7 @@ andere möglichkeit
 .main-item {
   width: 100%;
   /* display flex */
+  background-color: #FCD8AC;
 
   display: flex;
   flex-direction: column;
@@ -117,6 +119,8 @@ andere möglichkeit
 h2 {
   font-size: 3rem;
   margin-bottom: 40px;
+  color: #C64A38
+  ;
 }
 
 .cards {
@@ -133,7 +137,8 @@ h2 {
 }
 
 .card-item {
-  border: 2px solid black;
+  border: 2px solid #B2C3A6
+  ;
   height: 90%;
   overflow: hidden;
   border-radius: 2rem;
@@ -154,7 +159,7 @@ h2 {
 }
 
 .aktion {
-  background-color: red;
+  background-color: rgb(200, 11, 11);
   color: white;
   font-weight: bold;
 
@@ -172,7 +177,7 @@ h2 {
 .card-content {
   height: 50%;
   padding: 0 2rem 3rem 2rem;
-
+  background-color: #F78B6A;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -202,7 +207,8 @@ p {
 
 .card-bes {
   margin-bottom: 3rem;
-  color: rgb(85, 85, 85);
+  color: rgba(21, 6, 6, 0.857);
+  font-size: 1.4rem;
 }
 
 .card-tags {
@@ -217,7 +223,7 @@ p {
   border-radius: 30px;
 }
 .tag-1 {
-  background-color: lightcoral;
+  background-color: rgb(210, 113, 113);
 }
 .tag-2 {
   background-color: lightgreen;
@@ -253,8 +259,10 @@ table,
 th,
 tr,
 td {
-  border: 1px solid black;
+  border: 1px solid rgb(45, 44, 44);
   border-collapse: collapse;
+  color: #C64A38
+  ;
 }
 
 th,
@@ -277,9 +285,13 @@ tr:nth-child(2n-1) {
 
 */
 tr:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgba(101, 157, 75, 0.427);
 }
 
+tr:nth-child(odd) {
+  background-color: #FABB82
+  ;
+}
 /* Form */
 .contact {
   width: 80vw;
@@ -310,6 +322,8 @@ textarea {
 
 label {
   margin-bottom: 0.7rem;
+  color: rgb(198, 18, 18);
+  
 }
 /*
 - selektives fokus nach input type
@@ -325,7 +339,7 @@ textarea:focus {
 }
 
 textarea {
-  resize: none;
+  resize: none; 
 }
 
 .submit-btn {
@@ -333,11 +347,13 @@ textarea {
   width: 15rem;
   padding: 1rem 0;
   border-radius: 5px;
+  background-color: #C64A38  ;
+  color: white;
 }
 
 /* Footer */
 footer {
-  background-color: rgba(128, 128, 128, 0.486);
+  background-color: #8625169e;
   padding: 1rem;
 
   /* text-align: center; */
@@ -353,10 +369,12 @@ footer p {
   display: flex;
   justify-content: center;
   gap: 20px;
+  color: blueviolet;
 }
 
 .icon a {
   font-size: 2rem;
+  color: rgb(152, 98, 202);
 }
 
 /* Media Querry */
